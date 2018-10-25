@@ -33,5 +33,4 @@ def main(download_many):
 	elapsed = time.time() -t0
 	print('{} flags downloaded in {:.2f}'.format(result,elapsed))
 
-if __name__=='__main__':
 	main(download_many)
